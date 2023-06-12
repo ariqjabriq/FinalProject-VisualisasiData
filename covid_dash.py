@@ -16,7 +16,7 @@ df3=df3.head(20);
 
 app= Dash()
 app.layout= html.Div([
-    html.H1('COVID-19 Dashboard'),
+    html.H1('COVID-19 Indonesia Dashboard'),
 
     dcc.Graph(
         id='line_bd',
